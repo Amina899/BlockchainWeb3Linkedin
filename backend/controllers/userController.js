@@ -1,3 +1,4 @@
+//controllers/userController
 const User = require('../models/userModel');
 const Role = require('../models/roleModel');
 const bcrypt = require('bcryptjs');
@@ -19,7 +20,7 @@ class userController {
     try {
         const errors = validationResult(req)
         if (!errors.isEmpty()) {
-          return req.status(400).json({message: "Error while registration", errors})
+          return res.status(400).json({message: "Error while registration", errors})
         }
 
         const {username, name, surname, age, email, nationality, password} = req.body
@@ -67,6 +68,15 @@ class userController {
       res.status(400).json({message: 'Registration error'})
     }
   }
+
+    async getUsersPage(req, res) {
+        try {
+            const users = await User.find();
+            res.render('users', { users });
+        } catch (e) {
+            res.status(400).json({ message: 'Registration error' });
+        }
+    }
 
 }
 

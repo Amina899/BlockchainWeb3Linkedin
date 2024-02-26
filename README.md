@@ -1,40 +1,77 @@
-## Getting Started
+# Web3LinkedIn
+## Installation
+### Import Dependencies
+- cd api-service, npm install, npm start
+- cd webclient, npm install, npm run start
 
-Create a project using this example:
+## Features
 
-```bash
-npx thirdweb create --template next-typescript-starter
-```
+### 1. Profile Page
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- **User Profile:** Display user profile information, including avatar, address, bio, token balance, and token count.
+- **Friend Requests:** View and manage friend requests from other users.
 
-On `pages/_app.tsx`, you'll find our `ThirdwebProvider` wrapping your app, this is necessary for our [hooks](https://portal.thirdweb.com/react) and
-[UI Components](https://portal.thirdweb.com/ui-components) to work.
+### 2. Metamask Integration
 
-## Environment Variables
+- **Web3 Connection:** Utilize Web3 to connect to Metamask wallets for secure transactions and interactions with the Ethereum blockchain.
+- **NFT Display:** Showcase NFTs associated with user accounts.
 
-To run this project, you will need to add environment variables. Check the `.env.example` file for all the environment variables required and add it to `.env.local` file or set them up on your hosting provider.
+### 3. Decentralized LinkedIn Features
 
-## Deploy to IPFS
+- **News Feed:** Post and view different news updates shared by users in a decentralized manner.
+- **Friendship Management:** Add and remove other users as friends, creating a decentralized network.
 
-Deploy a copy of your application to IPFS using the following command:
+### 4. Fullstack Next.js & Node.js
 
-```bash
-yarn deploy
-```
+- **Next.js Frontend:** Utilize the Next.js framework for building a dynamic and responsive frontend.
+- **Node.js Backend:** Develop a robust backend using Node.js to handle API requests, database operations, and business logic.
 
-## Learn More
+### 5. Public API Service
 
-To learn more about thirdweb and Next.js, take a look at the following resources:
+- **Decentralized API:** Provide a public API service allowing users to interact with decentralized LinkedIn features programmatically.
+- **User Authentication:** Implement secure user authentication for API requests.
 
-- [thirdweb React Documentation](https://docs.thirdweb.com/react) - learn about our React SDK.
-- [thirdweb TypeScript Documentation](https://docs.thirdweb.com/typescript) - learn about our JavaScript/TypeScript SDK.
-- [thirdweb Portal](https://docs.thirdweb.com) - check our guides and development resources.
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Templates](https://thirdweb.com/templates)
+### 6. NFT Integration
 
-You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
+- **NFT Display:** Showcase NFTs associated with user accounts, enhancing the user's digital identity.
+- **Metamask Wallet Interaction:** Enable users to view and manage their NFTs through Metamask.
 
-## Join our Discord!
+### 7. News Posting and Viewing
 
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+- **Post News Updates:** Share news updates with the community in a decentralized manner.
+- **View News Feed:** Stay informed by viewing news updates posted by other users.
+
+### 8. Friend Management
+
+- **Add/Remove Friends:** Build a decentralized social network by allowing users to connect with each other.
+- **Friendship Notifications:** Receive notifications for friend requests and updates.
+
+
+## Demo Screenshots
+### Profile Page
+
+![image](https://github.com/Amina899/BlockFinal/assets/124548089/3bcdcd3d-51b0-439d-aa4f-9d49ce00db3b)
+
+The profile page displays detailed user information, including the avatar, address, bio, token balance, and token count. Users can customize their profiles and showcase their NFTs.
+
+### Main Page
+
+![image](https://github.com/Amina899/BlockFinal/assets/124548089/db13d95d-594e-4e1b-9b8e-3ebb4aeaebce)
+
+The main page serves as the central hub for users, providing access to the news feed, network connections, job postings, and notifications. Users can stay informed about updates from their connections.
+
+### Register Page
+
+![image](https://github.com/Amina899/BlockFinal/assets/124548089/2b2d9801-bfca-4429-9965-c87f86f8ded5)
+
+The registration page allows new users to create accounts securely. It includes a user-friendly form for entering essential details, ensuring a smooth onboarding process.
+
+### Login Page
+
+![image](https://github.com/Amina899/BlockFinal/assets/124548089/e50f7da2-84d2-4c62-9859-9700da6315b2)
+
+The login page provides a secure authentication mechanism, allowing users to access their accounts by entering valid credentials. It ensures a seamless and protected user login experience.
+
+
+## License
+https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/LICENS
